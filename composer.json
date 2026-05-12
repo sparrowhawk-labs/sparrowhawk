@@ -1,0 +1,43 @@
+{
+    "name": "sparrowhawk-labs/sparrowhawk",
+    "description": "A Laravel sub-framework and UI plugin ecosystem.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "framework",
+        "sparrowhawk",
+        "ui"
+    ],
+    "homepage": "https://sparrowhawk-labs.dev",
+    "support": {
+        "issues": "https://github.com/sparrowhawk-labs/sparrowhawk/issues",
+        "source": "https://github.com/sparrowhawk-labs/sparrowhawk"
+    },
+    "authors": [
+        {
+            "name": "Akihiko Takai",
+            "email": "akihiko.takai@yakaze.com",
+            "homepage": "https://yakaze.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SparrowhawkLabs\\Sparrowhawk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SparrowhawkLabs\\Sparrowhawk\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
