@@ -1,13 +1,17 @@
 {
     "name": "sparrowhawk-labs/sparrowhawk",
-    "description": "A Laravel sub-framework and UI plugin ecosystem.",
+    "description": "Laravel Sparrowhawk — a canonical TALL-stack app framework for Laravel.",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel",
         "framework",
         "sparrowhawk",
-        "ui"
+        "tall-stack",
+        "blade",
+        "livewire",
+        "alpine",
+        "tailwind"
     ],
     "homepage": "https://sparrowhawk-labs.dev",
     "support": {
