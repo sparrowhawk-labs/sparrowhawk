@@ -10,3 +10,6 @@ composer.lock
 .env
 .env.*
 !.env.example
+
+# Contributor doc (CLAUDE.md) — kept local-only, never published
+/CLAUDE.md
